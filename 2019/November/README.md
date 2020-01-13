@@ -47,3 +47,14 @@ For a more deep explanation of every stats, including where to find the data and
 
 #### Percentage equal outputs reused per CoinJoin
 ![percentage_equal_outputs_reused_per_CoinJoin](percentage_equal_outputs_reused_per_CoinJoin.png)
+
+#### Total percentage outputs reused
+![total_percentage_output_reused](total_percentage_outputs_reuse.png)
+
+### FEES
+
+#### Coordinator fees per CoinJoin
+![coordinator_fees_per_CoinJoin](coordinator_fees_per_CoinJoin.png)
+
+#### Total coordinator fees
+![total_coordinator_fees_](total_coordinator_fees.png)
