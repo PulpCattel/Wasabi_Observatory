@@ -28,7 +28,7 @@ For stats about the previous months, look [here](README.md#previous-data).
 
 ### GENERAL
 
-#### CoinJoin per Day
+#### [CoinJoin per Day](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/Dont_Trust_Verify.md#coinjoin-per-day)
 ![CoinJoin_per_day](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/2019/January/CoinJoin_per_day.png)
 
 > The spike in CoinJoin per day is the result of this test: 
@@ -37,50 +37,50 @@ For stats about the previous months, look [here](README.md#previous-data).
 
 > You can see effect of this test on other stats too.
 
-#### Partecipants per CoinJoin
+#### [Partecipants per CoinJoin](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/Dont_Trust_Verify.md#partecipants-per-coinjoin)
 ![partecipants_per_CoinJoin](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/2019/January/partecipants_per_CoinJoin.png)
 
-#### Average input size per CoinJoin
+#### [Average input size per CoinJoin](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/Dont_Trust_Verify.md#average-input-size-per-coinjoin)
 ![average_input_size_per_CoinJoin](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/2019/January/average_input_size_per_CoinJoin.png)
 
-#### Total volume
+#### [Total volume](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/Dont_Trust_Verify.md#total-volume)
 ![total_volume](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/2019/January/total_volume.png)
 
 ### INPUTS
 
-#### Total number addresses/inputs
+#### [Total number addresses/inputs](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/Dont_Trust_Verify.md#total-number-of-addresses)
 
 ![total_number_addresses](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/2019/January/total_number_addresses.png)
 
-#### Percentage remixers per CoinJoin
+#### [Percentage remixers per CoinJoin](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/Dont_Trust_Verify.md#percentage-remixers-per-coinjoin)
 ![percentage_remixers_per_CoinJoin](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/2019/January/percentage_remixers_per_CoinJoin.png)
 
-#### Total percentage remixers
+#### [Total percentage remixers](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/Dont_Trust_Verify.md#total-percentage-remixers)
 ![total_percentage_remixers](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/2019/January/total_percentage_remixers.png)
 
-#### Percentage address reuse per CoinJoin
+#### [Percentage address reuse per CoinJoin](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/Dont_Trust_Verify.md#percentage-address-reuse-per-coinjoin)
 ![percentage_address_reuse_per_CoinJoin](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/2019/January/percentage_address_reuse_per_CoinJoin.png)
 
-#### Total percentage address reuse
+#### [Total percentage address reuse](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/Dont_Trust_Verify.md#total-percentage-address-reuse)
 ![total_percentage_address_reuse](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/2019/January/total_percentage_address_reuse.png)
 
 ### EQUAL OUTPUTS
 
-#### Total number equal outputs
+#### [Total number equal outputs](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/Dont_Trust_Verify.md#total-number-equal-outputs)
 ![total_number_equal_outputs](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/2019/January/total_number_equal_output_reused.png)
 
-#### Percentage equal outputs reused per CoinJoin
+#### [Percentage equal outputs reused per CoinJoin](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/Dont_Trust_Verify.md#percentage-equal-outputs-reused-per-coinjoin)
 ![percentage_equal_outputs_reused_per_CoinJoin](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/2019/January/percentage_equal_outputs_reused_per_CoinJoin.png)
 
-#### Total percentage outputs reused
+#### [Total percentage outputs reused](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/Dont_Trust_Verify.md#total-percentage-equal-outputs-reused)
 ![total_percentage_output_reused](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/2019/January/total_percentage_outputs_reused.png)
 
 ### FEES
 
-#### Coordinator fees per CoinJoin
+#### [Coordinator fees per CoinJoin](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/Dont_Trust_Verify.md#coordinator-fees-per-coinjoin)
 ![coordinator_fees_per_CoinJoin](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/2019/January/coordinator_fees_per_CoinJoin.png)
 
-#### Total coordinator fees
+#### [Total coordinator fees](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/Dont_Trust_Verify.md#total-coordinator-fees)
 ![total_coordinator_fees_](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/2019/January/total_coordinator_fees.png)
 
 ---
