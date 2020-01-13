@@ -31,7 +31,7 @@ For stats about the previous months, look [here](README.md#previous-data).
 #### CoinJoin per Day
 ![CoinJoin_per_day](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/2019/January/CoinJoin_per_day.png)
 
-> The spike in CoinJoin per day in the result of this test: 
+> The spike in CoinJoin per day is the result of this test: 
 
 > https://www.reddit.com/r/WasabiWallet/comments/elwr05/faster_coinjoins_backend_countdown_timer_reduced/
 
