@@ -49,7 +49,7 @@ For a more deep explanation of every stats, including where to find the data and
 ![percentage_equal_outputs_reused_per_CoinJoin](percentage_equal_outputs_reused_per_CoinJoin.png)
 
 #### Total percentage outputs reused
-![total_percentage_output_reused](total_percentage_outputs_reuse.png)
+![total_percentage_output_reused](total_percentage_equal_outputs_reused.png)
 
 ### FEES
 
