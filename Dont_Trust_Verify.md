@@ -10,7 +10,7 @@ Blockstream explorer, for example, offers a nice set of API that you can use ove
 
 *Example API request over onion service*: http://explorerzydxu5ecjrkwceayqybizmpjjznk5izmitf2modhcusuqlid.onion/api/address/bc1qa24tsgchvuxsaccp8vrnkfd85hrcpafg20kmjw
 
-Or you can do it over https.
+Or if you don't want to use Tor.
 
 *Example API request over https*: https://blockstream.info/api/address/bc1qa24tsgchvuxsaccp8vrnkfd85hrcpafg20kmjw
 
