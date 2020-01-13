@@ -397,7 +397,7 @@ F,C,G,H,I,I
 
 * #### Percentage equal outputs reused per CoinJoin
 
-**The red dots** are the distribution of the percentage of equal value outputs reused on the total number of equal value outputs.
+**The red dots** are the distribution of the percentage of equal value outputs reused for each CoinJoin. An equal value output is counted as reused if it appears as equal value output in a CoinJoin more than once (either in the same CoinJoin or in different ones).
 
 `percentage equal value outputs reused per CoinJoin = number(equal outputs reused) / number(equal outputs)`
 
