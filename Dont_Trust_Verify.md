@@ -379,7 +379,7 @@ F,C,G,H,I,I
 
 `n° addresses reused = A,B,C,I = 4`
 
-`n° inputs reused = A,A,B,B,C,I,I = 7`
+`n° inputs reused = A,A,B,B,C,C,I,I = 8`
 
 `tot n° addresses = A,B,C,D,E,F,G,H,I = 9`
 
@@ -387,7 +387,7 @@ F,C,G,H,I,I
 
 `percentage addresses reused = n° addresses reused / tot n° addresses = 4/9 = 44%`
 
-`percentage inputs reused = n° inputs reused / tot n° inputs = 7/13 = 54%`
+`percentage inputs reused = n° inputs reused / tot n° inputs = 8/13 = 61%`
 
 * #### Total number equal outputs
 
