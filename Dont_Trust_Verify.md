@@ -393,11 +393,11 @@ F,C,G,H,I,I
 
 **The green line** is the total number of equal value outputs.
 
-**The red line** is the total number of equal outputs reused. An equal value output is counted as reused if it appears as equal value output in a CoinJoin more than once (either in the same CoinJoin or in different ones).
+**The red line** is the total number of equal value outputs that belong to output addresses reused. An equal value output address is counted as reused if it appears as equal value output in a CoinJoin more than once (either in the same CoinJoin or in different ones).
 
 * #### Percentage equal outputs reused per CoinJoin
 
-**The red dots** are the distribution of the percentage of equal value outputs reused for each CoinJoin. An equal value output is counted as reused if it appears as equal value output in a CoinJoin more than once (either in the same CoinJoin or in different ones).
+**The red dots** are the distribution of the percentage of equal value outputs the belong to output addresses reused for each CoinJoin. An equal value output address is counted as reused if it appears as equal value output in a CoinJoin more than once (either in the same CoinJoin or in different ones).
 
 `percentage equal value outputs reused per CoinJoin = number(equal outputs reused) / number(equal outputs)`
 
@@ -439,7 +439,7 @@ F > 3 |  | 1 > V
 
 * #### Total percentage equal outputs reused
 
-**The red line** is the percentage of equal outputs reused on the total number of equal outputs. An equal value output is counted as reused if it appears as equal value output in a CoinJoin more than once (either in the same CoinJoin or in different ones).
+**The red line** is the percentage of equal outputs reused on the total number of equal outputs that belong to output addresses reused. An equal value output address is counted as reused if it appears as equal value output in a CoinJoin more than once (either in the same CoinJoin or in different ones).
 
 Example:
 
