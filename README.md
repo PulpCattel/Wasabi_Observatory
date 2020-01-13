@@ -1,6 +1,6 @@
 # Wasabi Observatory
 
-![Sphinx Observatory](https://github.com/PulpCattel/Wasabi-Observatory/blob/master/Sphinx_Observatorium.jpg)
+![Sphinx Observatory](Sphinx_Observatorium.jpg)
 
 [(image source)](https://en.wikipedia.org/wiki/Sphinx_Observatory)
 
