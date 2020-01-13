@@ -8,7 +8,7 @@ A simple way that requires nothing more than an Internet connection is to query 
 
 Blockstream explorer, for example, offers a nice set of API that you can use over Tor with an onion service (recommended).
 
-*Example API request over Tor*: http://explorerzydxu5ecjrkwceayqybizmpjjznk5izmitf2modhcusuqlid.onion/api/address/bc1qa24tsgchvuxsaccp8vrnkfd85hrcpafg20kmjw
+*Example API request over onion service*: http://explorerzydxu5ecjrkwceayqybizmpjjznk5izmitf2modhcusuqlid.onion/api/address/bc1qa24tsgchvuxsaccp8vrnkfd85hrcpafg20kmjw
 
 Or you can do it over https.
 
@@ -31,20 +31,20 @@ Another way of getting the data is to use your own full node.
 Once you have the data you are interested in, you can work on it using your favorite programming language. 
 Here there is the complete list of stats used and their exact calculation. If you find any error, or something doesn't add up, please let me know so I can fix it.
 
-* [CoinJoin per day](https://github.com/PulpCattel/Wasabi-Observatory/blob/master/Dont_Trust_Verify.md#coinjoin-per-day)
-* [Partecipants per CoinJoin](https://github.com/PulpCattel/Wasabi-Observatory/blob/master/Dont_Trust_Verify.md#partecipants-per-coinjoin)
-* [Average input size per CoinJoin](https://github.com/PulpCattel/Wasabi-Observatory/blob/master/Dont_Trust_Verify.md#average-input-size-per-coinjoin)
-* [Total volume](https://github.com/PulpCattel/Wasabi-Observatory/blob/master/Dont_Trust_Verify.md#total-volume)
-* [Total number of addresses](https://github.com/PulpCattel/Wasabi-Observatory/blob/master/Dont_Trust_Verify.md#total-number-of-addresses)
-* [Percentage remixers per CoinJoin](https://github.com/PulpCattel/Wasabi-Observatory/blob/master/Dont_Trust_Verify.md#percentage-remixers-per-coinjoin)
-* [Total percentage remixers](https://github.com/PulpCattel/Wasabi-Observatory/blob/master/Dont_Trust_Verify.md#total-percentage-remixers)
-* [Percentage address reuse per CoinJoin](https://github.com/PulpCattel/Wasabi-Observatory/blob/master/Dont_Trust_Verify.md#percentage-address-reuse-per-coinjoin)
-* [Total percentage address reuse](https://github.com/PulpCattel/Wasabi-Observatory/blob/master/Dont_Trust_Verify.md#total-percentage-address-reuse)
-* [Total number equal outputs](https://github.com/PulpCattel/Wasabi-Observatory/blob/master/Dont_Trust_Verify.md#total-number-equal-outputs)
-* [Percentage equal outputs reused per CoinJoin](https://github.com/PulpCattel/Wasabi-Observatory/blob/master/Dont_Trust_Verify.md#percentage-equal-outputs-reused-per-coinjoin)
-* [Total percentage equal outputs reused](https://github.com/PulpCattel/Wasabi-Observatory/blob/master/Dont_Trust_Verify.md#total-percentage-equal-outputs-reused)
-* [Coordinator fees per CoinJoin](https://github.com/PulpCattel/Wasabi-Observatory/blob/master/Dont_Trust_Verify.md#coordinator-fees-per-coinjoin)
-* [Total coordinator fees](https://github.com/PulpCattel/Wasabi-Observatory/blob/master/Dont_Trust_Verify.md#total-coordinator-fees)
+* [CoinJoin per day](Dont_Trust_Verify.md#coinjoin-per-day)
+* [Partecipants per CoinJoin](Dont_Trust_Verify.md#partecipants-per-coinjoin)
+* [Average input size per CoinJoin](Dont_Trust_Verify.md#average-input-size-per-coinjoin)
+* [Total volume](Dont_Trust_Verify.md#total-volume)
+* [Total number of addresses](Dont_Trust_Verify.md#total-number-of-addresses)
+* [Percentage remixers per CoinJoin](Dont_Trust_Verify.md#percentage-remixers-per-coinjoin)
+* [Total percentage remixers](Dont_Trust_Verify.md#total-percentage-remixers)
+* [Percentage address reuse per CoinJoin](Dont_Trust_Verify.md#percentage-address-reuse-per-coinjoin)
+* [Total percentage address reuse](Dont_Trust_Verify.md#total-percentage-address-reuse)
+* [Total number equal outputs](Dont_Trust_Verify.md#total-number-equal-outputs)
+* [Percentage equal outputs reused per CoinJoin](Dont_Trust_Verify.md#percentage-equal-outputs-reused-per-coinjoin)
+* [Total percentage equal outputs reused](Dont_Trust_Verify.md#total-percentage-equal-outputs-reused)
+* [Coordinator fees per CoinJoin](Dont_Trust_Verify.md#coordinator-fees-per-coinjoin)
+* [Total coordinator fees](Dont_Trust_Verify.md#total-coordinator-fees)
 
 ---
 
