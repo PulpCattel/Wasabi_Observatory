@@ -25,6 +25,7 @@ Another way of getting the data is to use your own full node.
 * https://en.bitcoin.it/wiki/Original_Bitcoin_client/API_calls_list
 * https://en.bitcoin.it/wiki/API_reference_(JSON-RPC)               
 * https://github.com/nopara73/WasabiVsSamourai
+* https://github.com/jgmontoya/wasabi-cj-stats
 
 ### Analyze the data
 
