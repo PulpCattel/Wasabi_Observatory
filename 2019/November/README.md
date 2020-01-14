@@ -58,3 +58,10 @@ For a more deep explanation of every stats, including where to find the data and
 
 #### Total coordinator fees
 ![total_coordinator_fees_](total_coordinator_fees.png)
+
+---
+
+### Next data
+
+* [January 2020](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/README.md)
+* [December 2019](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/2019/December/README.md)
