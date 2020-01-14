@@ -440,7 +440,7 @@ F > 3 |  | 1 > V
 
 * #### Total percentage equal outputs reused
 
-**The red line** is the percentage of equal outputs reused on the total number of equal outputs that belong to output addresses reused. An equal value output address is counted as reused if it appears as equal value output in a CoinJoin more than once (either in the same CoinJoin or in different ones).
+**The red line** is the percentage of equal outputs reused on the total number of equal outputs. An equal value output address is counted as reused if it appears as equal value output in a CoinJoin more than once (either in the same CoinJoin or in different ones).
 
 Example:
 
