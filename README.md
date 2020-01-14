@@ -87,5 +87,6 @@ For stats about the previous months, look [here](README.md#previous-data).
 
 ### Previous data
 
-* [November 2019](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/2019/November/README.md)
 * [December 2019](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/2019/December/README.md)
+* [November 2019](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/2019/November/README.md)
+
