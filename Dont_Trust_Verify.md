@@ -196,7 +196,7 @@ E > 3 |  | 1 > U
 
 **The green dots** are the distribution of the remixers percentage for each CoinJoin. An input is counted as a remixer if it spend a previous equal value output and if it appears as input not more than once and as equal value output not more than once (either in the same CoinJoin or in different ones).
 
-`remixers percentage per CoinJoin = number(remixers) / number(CoinJoin inputs)`
+`remixers percentage per CoinJoin = number(CoinJoin remixers) / number(CoinJoin inputs)`
 
 **The blue line** is the average of the distribution.
 
@@ -280,11 +280,11 @@ E > 3 |  | 1 > U
 
 **The orange dots** are the distribution of the percentage of addresses reused for each CoinJoin. An input address is counted as reused if it appears as input in a CoinJoin more than once (either in the same CoinJoin or in different ones).
 
-`percentage addresses reuse per CoinJoin = number(reused addresses) / number(input addresses)`
+`percentage addresses reuse per CoinJoin = number(CoinJoin addresses reused) / number(CoinJoin input addresses)`
 
 **The red dots** are the distribution of the percentage of inputs that belong to reused addresses.
 
-`percentage inputs reused per CoinJoin = number(reused inputs) / number(inputs)`
+`percentage inputs reused per CoinJoin = number(CoinJoin inputs reused) / number(CoinJoin inputs)`
 
 **The red and orange lines** are the average of the respective distribution.
 
@@ -400,7 +400,7 @@ F,C,G,H,I,I
 
 **The red dots** are the distribution of the percentage of equal value outputs that belong to output addresses reused for each CoinJoin. An equal value output address is counted as reused if it appears as equal value output in a CoinJoin more than once (either in the same CoinJoin or in different ones).
 
-`percentage equal value outputs reused per CoinJoin = number(equal outputs reused) / number(equal outputs)`
+`percentage equal value outputs reused per CoinJoin = number(CoinJoin equal outputs reused) / number(CoinJoin equal outputs)`
 
 **The red line** is the average of the distribution.
 
