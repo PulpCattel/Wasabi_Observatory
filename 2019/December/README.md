@@ -1,6 +1,8 @@
 A list of statistics of the Wasabi Wallet's trustless CoinJoin implementation.
 
-For a more deep explanation of every stats, including where to find the data and how to calculate them, give a look at the [Don't Trust, Verify](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/Dont_Trust_Verify.md) section. 
+For a more deep explanation of every stats, including how to calculate them and where to find them, give a look at the [Don't Trust, Verify](/Dont_Trust_Verify.md) section. 
+
+For stats about the other months, look [here](/months_list.md).
 
 ---
 
@@ -126,8 +128,8 @@ For a more deep explanation of every stats, including where to find the data and
 ---
 ### Next data
 
-* [January 2020](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/README.md)
+* [January 2020](/README.md)
 
 ### Previous data
 
-* [November 2019](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/2019/November/README.md)
+* [November 2019](/2019/November/README.md)

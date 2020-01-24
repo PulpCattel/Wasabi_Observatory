@@ -10,7 +10,7 @@ A list of statistics of the Wasabi Wallet's trustless CoinJoin implementation.
 
 For a more deep explanation of every stats, including how to calculate them and where to find them, give a look at the [Don't Trust, Verify](Dont_Trust_Verify.md) section. 
 
-For stats about the previous months, look [here](README.md#previous-data).
+For stats about the previous months, look [here](months_list.md).
 
 ### About Wasabi
 
@@ -28,12 +28,12 @@ For stats about the previous months, look [here](README.md#previous-data).
 
 ### GENERAL
 
-#### [CoinJoin per Day](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/Dont_Trust_Verify.md#coinjoin-per-day)
-![CoinJoin_per_day](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/2019/January/CoinJoin_per_day.png)
+#### [CoinJoin per Day](Dont_Trust_Verify.md#coinjoin-per-day)
+![CoinJoin_per_day](2020/January/CoinJoin_per_day.png)
 
 **Last values:**
 
-* Blue line = 26.58
+* Blue line = 32.61
 
 > The spike in CoinJoin per day is the result of this test: 
 
@@ -41,116 +41,117 @@ For stats about the previous months, look [here](README.md#previous-data).
 
 > You can see effect of this test on other stats too.
 
-#### [Partecipants per CoinJoin](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/Dont_Trust_Verify.md#partecipants-per-coinjoin)
-![partecipants_per_CoinJoin](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/2019/January/partecipants_per_CoinJoin.png)
+#### [Partecipants per CoinJoin](Dont_Trust_Verify.md#partecipants-per-coinjoin)
+![partecipants_per_CoinJoin](2020/January/partecipants_per_CoinJoin.png)
 
 **Last values:**
 
-* Blue line = 64.18
+* Blue line = 58.85
 
-#### [Average input size per CoinJoin](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/Dont_Trust_Verify.md#average-input-size-per-coinjoin)
-![average_input_size_per_CoinJoin](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/2019/January/average_input_size_per_CoinJoin.png)
-
-**Last values:**
-
-* Blue line = 0.57
-
-#### [Total volume](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/Dont_Trust_Verify.md#total-volume)
-![total_volume](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/2019/January/total_volume.png)
+#### [Average input size per CoinJoin](Dont_Trust_Verify.md#average-input-size-per-coinjoin)
+![average_input_size_per_CoinJoin](2020/January/average_input_size_per_CoinJoin.png)
 
 **Last values:**
 
-* Green line = 14704.7
-* Blue line = 5452.3
+* Blue line = 0.44
+
+#### [Total volume](Dont_Trust_Verify.md#total-volume)
+![total_volume](2020/January/total_volume.png)
+
+**Last values:**
+
+* Green line = 25193.6
+* Blue line = 10660.6
 
 ### INPUTS
 
-#### [Total number addresses/inputs](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/Dont_Trust_Verify.md#total-number-of-addresses)
-![total_number_addresses](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/2019/January/total_number_addresses.png)
+#### [Total number addresses/inputs](Dont_Trust_Verify.md#total-number-of-addresses)
+![total_number_addresses](2020/January/total_number_addresses.png)
 
 **Last values:**
 
-* Orange line = 597
-* Red line = 1610
-* Light blue line = 9103
-* Green line = 26225
-* Blue line = 27238
+* Orange line = 1130
+* Red line = 3032
+* Light blue line = 22188
+* Green line = 55336
+* Blue line = 57238
 
-#### [Percentage remixers per CoinJoin](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/Dont_Trust_Verify.md#percentage-remixers-per-coinjoin)
-![percentage_remixers_per_CoinJoin](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/2019/January/percentage_remixers_per_CoinJoin.png)
-
-**Last values:**
-
-* Blue line = 34.83
-
-#### [Total percentage remixers](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/Dont_Trust_Verify.md#total-percentage-remixers)
-![total_percentage_remixers](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/2019/January/total_percentage_remixers.png)
+#### [Percentage remixers per CoinJoin](Dont_Trust_Verify.md#percentage-remixers-per-coinjoin)
+![percentage_remixers_per_CoinJoin](2020/January/percentage_remixers_per_CoinJoin.png)
 
 **Last values:**
 
-* Green line = 34.71
-* Blue line = 33.42
+* Blue line = 40.04
 
-#### [Percentage address reuse per CoinJoin](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/Dont_Trust_Verify.md#percentage-address-reuse-per-coinjoin)
-![percentage_address_reuse_per_CoinJoin](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/2019/January/percentage_address_reuse_per_CoinJoin.png)
-
-**Last values:**
-
-* Orange line = 2.91
-* Red line = 3.75
-
-#### [Total percentage address reuse](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/Dont_Trust_Verify.md#total-percentage-address-reuse)
-![total_percentage_address_reuse](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/2019/January/total_percentage_address_reuse.png)
+#### [Total percentage remixers](Dont_Trust_Verify.md#total-percentage-remixers)
+![total_percentage_remixers](2020/January/total_percentage_remixers.png)
 
 **Last values:**
 
-* Orange line = 2.28
-* Red line = 5.91
+* Green line = 40.1
+* Blue line = 38.76
+
+#### [Percentage address reuse per CoinJoin](Dont_Trust_Verify.md#percentage-address-reuse-per-coinjoin)
+![percentage_address_reuse_per_CoinJoin](2020/January/percentage_address_reuse_per_CoinJoin.png)
+
+**Last values:**
+
+* Orange line = 2.7
+* Red line = 3.31
+
+#### [Total percentage address reuse](Dont_Trust_Verify.md#total-percentage-address-reuse)
+![total_percentage_address_reuse](2020/January/total_percentage_address_reuse.png)
+
+**Last values:**
+
+* Orange line = 2.04
+* Red line = 5.3
 
 ### EQUAL OUTPUTS
 
-#### [Total number equal outputs](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/Dont_Trust_Verify.md#total-number-equal-outputs)
-![total_number_equal_outputs](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/2019/January/total_number_equal_output_reused.png)
+#### [Total number equal outputs](Dont_Trust_Verify.md#total-number-equal-outputs)
+![total_number_equal_outputs](2020/January/total_number_equal_output_reused.png)
 
 **Last values:**
 
-* Red line = 1411
-* Green line = 29183
+* Orange line = 1170
+* Red line = 2817
+* Green line = 59174
+* Blue line = 60821
 
-#### [Percentage equal outputs reused per CoinJoin](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/Dont_Trust_Verify.md#percentage-equal-outputs-reused-per-coinjoin)
-![percentage_equal_outputs_reused_per_CoinJoin](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/2019/January/percentage_equal_outputs_reused_per_CoinJoin.png)
-
-**Last values:**
-
-* Red line = 2.61
-
-#### [Total percentage outputs reused](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/Dont_Trust_Verify.md#total-percentage-equal-outputs-reused)
-![total_percentage_output_reused](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/2019/January/total_percentage_outputs_reused.png)
+#### [Percentage equal outputs reused per CoinJoin](Dont_Trust_Verify.md#percentage-equal-outputs-reused-per-coinjoin)
+![percentage_equal_outputs_reused_per_CoinJoin](2020/January/percentage_equal_outputs_reused_per_CoinJoin.png)
 
 **Last values:**
 
-* Red line = 4.84
+* Red line = 2.59
+
+#### [Total percentage outputs reused](Dont_Trust_Verify.md#total-percentage-equal-outputs-reused)
+![total_percentage_output_reused](2020/January/total_percentage_outputs_reused.png)
+
+**Last values:**
+
+* Orange line = 1.98
+* Red line = 4.63
 
 ### FEES
 
-#### [Coordinator fees per CoinJoin](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/Dont_Trust_Verify.md#coordinator-fees-per-coinjoin)
-![coordinator_fees_per_CoinJoin](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/2019/January/coordinator_fees_per_CoinJoin.png)
+#### [Coordinator fees per CoinJoin](Dont_Trust_Verify.md#coordinator-fees-per-coinjoin)
+![coordinator_fees_per_CoinJoin](2020/January/coordinator_fees_per_CoinJoin.png)
 
 **Last values:**
 
-* Blue line = 0.0137
+* Blue line = 0.0118
 
-#### [Total coordinator fees](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/Dont_Trust_Verify.md#total-coordinator-fees)
-![total_coordinator_fees_](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/2019/January/total_coordinator_fees.png)
+#### [Total coordinator fees](Dont_Trust_Verify.md#total-coordinator-fees)
+![total_coordinator_fees_](2020/January/total_coordinator_fees.png)
 
 **Last values:**
 
-* Green line = 4.3737
+* Green line = 8.8464
 
 ---
 
 ### Previous data
 
-* [December 2019](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/2019/December/README.md)
-* [November 2019](https://github.com/PulpCattel/Wasabi_Observatory/blob/master/2019/November/README.md)
-
+* [December 2019](2019/December/README.md)

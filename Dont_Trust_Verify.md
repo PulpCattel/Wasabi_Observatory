@@ -392,9 +392,16 @@ F,C,G,H,I,I
 
 * #### Total number equal outputs
 
-**The green line** is the total number of equal value outputs.
+**The green line** is the total number of equal value outputs addresses.
 
-**The red line** is the total number of equal value outputs that belong to output addresses reused. An equal value output address is counted as reused if it appears as equal value output in a CoinJoin more than once (either in the same CoinJoin or in different ones).
+**The blue line** is the total number of equal value outputs.
+
+> Ideally, green and blue should be equal, each equal value output should be a separate address. In practice some addresses are reused multiple times. 
+> This is either intentional or a bug (more [here](https://github.com/zkSNACKs/WalletWasabi/issues/2034) and [here](https://github.com/zkSNACKs/WalletWasabi/issues/2077)).
+
+**The orange line** is the total number of equal value outputs addresses reused. An equal value output address is counted as reused if it appears as equal value output in a CoinJoin more than once (either in the same CoinJoin or in different ones).
+
+**The red line** is the total number of equal value outputs that belong to equal value outputs addresses reused.
 
 * #### Percentage equal outputs reused per CoinJoin
 
@@ -440,7 +447,9 @@ F > 3 |  | 1 > V
 
 * #### Total percentage equal outputs reused
 
-**The red line** is the percentage of equal outputs reused on the total number of equal outputs. An equal value output address is counted as reused if it appears as equal value output in a CoinJoin more than once (either in the same CoinJoin or in different ones).
+**The orange line** is the percentage of equal value outputs addresses reused on the total number of equal value outputs addresses. An equal value output address is counted as reused if it appears as equal value output in a CoinJoin more than once (either in the same CoinJoin or in different ones).
+
+**The red line** is the percentage of equal value outputs that belong to equal value outputs addresses reused on the total number of equal value outputs. 
 
 Example:
 
@@ -456,7 +465,9 @@ C > 3 |  | 1 > X
          | ...
 ```
 
-`total percentage outputs reused = 0%`
+`percentage equal value outputs addresses reused = 0%`
+
+`percentage equal value outputs reused = 0%`
 
 ##### CoinJoin round 2
 
@@ -470,7 +481,9 @@ F > 3 |  | 1 > V
          | ...
 ```
 
-`total percentage outputs reused = (Z,Z)/(Z,Y,X,Z,W,V) = 2/6 = 33%`
+`percentage equal value outputs addresses reused = (Z)/(Z,Y,X,W,V) = 1/5 = 20%`
+
+`percentage equal value outputs reused = (Z,Z)/(Z,Y,X,Z,W,V) = 2/6 = 33%`
 
 * #### Coordinator fees per CoinJoin
 
