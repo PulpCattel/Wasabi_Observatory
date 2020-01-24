@@ -396,7 +396,7 @@ F,C,G,H,I,I
 
 **The blue line** is the total number of equal value outputs.
 
-> Ideally, green and blue should be equal, each equal value output should be a separate address. In practice some addresses are reused multiple times. 
+> Ideally, green and blue should be the same, each equal value output should be a separate address. In practice some addresses are reused multiple times. 
 > This is either intentional or a bug (more [here](https://github.com/zkSNACKs/WalletWasabi/issues/2034) and [here](https://github.com/zkSNACKs/WalletWasabi/issues/2077)).
 
 **The orange line** is the total number of equal value outputs addresses reused. An equal value output address is counted as reused if it appears as equal value output in a CoinJoin more than once (either in the same CoinJoin or in different ones).
