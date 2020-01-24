@@ -140,7 +140,7 @@ E > 5 |  | 1
 
 > Ideally, green and blue should be equal, each input should be a separate address. In practice people reuse addresses multiple times.
 
-**The light blue line** is the total number of remixers. An input address is counted as a remixer if it spend a previous equal value output and if it appears as input not more than once and as equal value output not more than once (either in the same CoinJoin or in different ones).
+**The light blue line** is the total number of remixers. An input address is counted as a remixer if it spends a previous equal value output and if it appears as input not more than once and as equal value output not more than once (either in the same CoinJoin or in different ones).
 
 **The orange line** is the total number of addresses reused. An input address is counted as reused if it appears as input in a CoinJoin more than once (either in the same CoinJoin or in different ones).
 
@@ -194,7 +194,7 @@ E > 3 |  | 1 > U
 
 * #### Percentage remixers per CoinJoin
 
-**The green dots** are the distribution of the remixers percentage for each CoinJoin. An input is counted as a remixer if it spend a previous equal value output and if it appears as input not more than once and as equal value output not more than once (either in the same CoinJoin or in different ones).
+**The green dots** are the distribution of the remixers percentage for each CoinJoin. An input address is counted as a remixer if it spends a previous equal value output and if it appears as input not more than once and as equal value output not more than once (either in the same CoinJoin or in different ones).
 
 `remixers percentage per CoinJoin = number(CoinJoin remixers) / number(CoinJoin inputs)`
 
@@ -235,7 +235,7 @@ E > 3 |  | 1 > U
 
 * #### Total percentage remixers
 
-**The green line** is the percentage of remixers on the total number of addresses that partecipated as input in a CoinJoin. An input is counted as a remixer if it spend a previous equal value output and if it appears as input not more than once and as equal value output not more than once (either in the same CoinJoin or in different ones).
+**The green line** is the percentage of remixers on the total number of addresses that partecipated as input in a CoinJoin. An input address is counted as a remixer if it spends a previous equal value output and if it appears as input not more than once and as equal value output not more than once (either in the same CoinJoin or in different ones).
 
 `percentage addresses = number(total remixers) / number(total input addresses)`
 
