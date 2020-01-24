@@ -140,7 +140,7 @@ E > 5 |  | 1
 
 > Ideally, green and blue should be equal, each input should be a separate address. In practice people reuse addresses multiple times.
 
-**The light blue line** is the total number of remixers. An input is counted as a remixer if it spend a previous equal value output and if it appears as input not more than once and as equal value output not more than once (either in the same CoinJoin or in different ones).
+**The light blue line** is the total number of remixers. An input address is counted as a remixer if it spend a previous equal value output and if it appears as input not more than once and as equal value output not more than once (either in the same CoinJoin or in different ones).
 
 **The orange line** is the total number of addresses reused. An input address is counted as reused if it appears as input in a CoinJoin more than once (either in the same CoinJoin or in different ones).
 
