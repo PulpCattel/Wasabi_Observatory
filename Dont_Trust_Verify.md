@@ -21,13 +21,22 @@ There are many different Blockchain explorers that offer API, pick the one that 
 Another way of getting the data is to use your own full node. 
 
 *Useful links*: 
-* https://github.com/jgarzik/python-bitcoinrpc            
-* https://en.bitcoin.it/wiki/Original_Bitcoin_client/API_calls_list
-* https://en.bitcoin.it/wiki/API_reference_(JSON-RPC)               
+* https://bitcoin.org/en/developer-reference#bitcoin-core-apis
+* https://en.bitcoin.it/wiki/API_reference_(JSON-RPC)                    
 * https://github.com/nopara73/WasabiVsSamourai
 * https://github.com/jgmontoya/wasabi-cj-stats
 
 ### Analyze the data
+
+A Bitcoin transaction is counted as a Wasabi "CoinJoin round" if it satisfies the following criteria:
+
+* Number of equal value outputs >2, only the most frequent equal value output [denomination](https://docs.wasabiwallet.io/FAQ/FAQ-UseWasabi.html#what-are-the-equal-denominations-created-in-one-mixing-round) is counted
+* The most frequent equal value output [denomination](https://docs.wasabiwallet.io/FAQ/FAQ-UseWasabi.html#what-are-the-equal-denominations-created-in-one-mixing-round) has to be between `0.0945 and 0.1055` or between `0.189 and 0.211`
+* All the inputs and outputs have to be bech32 addresses (Starting with "bc1")
+* One of the output has to be lower than `0.05` (Coordinator fee)
+* Number of inputs >= Number of equal value outputs, only the most frequent equal value output [denomination](https://docs.wasabiwallet.io/FAQ/FAQ-UseWasabi.html#what-are-the-equal-denominations-created-in-one-mixing-round) is counted
+
+> Keep in mind that if you use different criteria, you may end up with different results.
 
 Once you have the data you are interested in, you can work on it using your favorite programming language. 
 Here there is the complete list of stats used and their exact calculation. If you find any error, or something doesn't add up, please let me know so I can fix it.
@@ -44,8 +53,8 @@ Here there is the complete list of stats used and their exact calculation. If yo
 * [Total number equal outputs](Dont_Trust_Verify.md#total-number-equal-outputs)
 * [Percentage equal outputs reused per CoinJoin](Dont_Trust_Verify.md#percentage-equal-outputs-reused-per-coinjoin)
 * [Total percentage equal outputs reused](Dont_Trust_Verify.md#total-percentage-equal-outputs-reused)
-* [Coordinator fees per CoinJoin](Dont_Trust_Verify.md#coordinator-fees-per-coinjoin)
-* [Total coordinator fees](Dont_Trust_Verify.md#total-coordinator-fees)
+* [Coordinator fees per CoinJoin](Dont_Trust_Verify.md#coordinator-fees-per-coinjoin) (**Removed since [#3035](https://github.com/zkSNACKs/WalletWasabi/pull/3035)**)
+* [Total coordinator fees](Dont_Trust_Verify.md#total-coordinator-fees) (**Removed since [#3035](https://github.com/zkSNACKs/WalletWasabi/pull/3035)**)
 
 ---
 
@@ -160,13 +169,13 @@ C > 3 |  | 1 > X
          | ...
 ```
 
-`total number addresses = A,B,C = 3`
+`total number input addresses = A,B,C = 3`
 
 `total number inputs = A,B,C = 3`
 
 `total number remixers = 0`
 
-`total number addresses reused = 0`
+`total number input addresses reused = 0`
 
 `total number inputs reused = 0`
 
@@ -182,13 +191,13 @@ E > 3 |  | 1 > U
          | ...
 ```
 
-`total number addresses = A,B,C,Z,E = 5`
+`total number input addresses = A,B,C,Z,E = 5`
 
 `total number inputs = A,B,C,A,Z,E = 6`
 
 `total number remixers = Z = 1`
 
-`total number addresses reused = A = 1`
+`total number input addresses reused = A = 1`
 
 `total number inputs reused = A,A = 2`
 
@@ -237,7 +246,7 @@ E > 3 |  | 1 > U
 
 **The green line** is the percentage of remixers on the total number of addresses that partecipated as input in a CoinJoin. An input address is counted as a remixer if it spends a previous equal value output and if it appears as input not more than once and as equal value output not more than once (either in the same CoinJoin or in different ones).
 
-`percentage addresses = number(total remixers) / number(total input addresses)`
+`percentage input addresses = number(total remixers) / number(total input addresses)`
 
 **The blue line** is the percentage of remixers on the total number of inputs.
 
@@ -257,7 +266,7 @@ C > 3 |  | 1 > X
          | ...
 ```
 
-`percentage addresses = 0%`
+`percentage input addresses = 0%`
 
 `percentage inputs = 0%`
 
@@ -272,7 +281,7 @@ E > 3 |  | 1 > U
          | change
          | ...
 ```
-`percentage addresses = (Z)/(A,B,C,Z,E) = 1/5 = 20%`
+`percentage input addresses = (Z)/(A,B,C,Z,E) = 1/5 = 20%`
 
 `percentage inputs = (Z)/(A,B,C,A,Z,E) = 1/6 = 16%`
 
@@ -280,7 +289,7 @@ E > 3 |  | 1 > U
 
 **The orange dots** are the distribution of the percentage of addresses reused for each CoinJoin. An input address is counted as reused if it appears as input in a CoinJoin more than once (either in the same CoinJoin or in different ones).
 
-`percentage addresses reuse per CoinJoin = number(CoinJoin addresses reused) / number(CoinJoin input addresses)`
+`percentage input addresses reuse per CoinJoin = number(CoinJoin input addresses reused) / number(CoinJoin input addresses)`
 
 **The red dots** are the distribution of the percentage of inputs that belong to reused addresses.
 
@@ -298,19 +307,19 @@ inputs
 A,A,B,B,C,D,E
 ```
 
-`n° addresses reused = A,B = 2`
+`n° input addresses reused = A,B = 2`
 
 `n° inputs reused = A,A,B,B = 4`
 
-`tot n° addresses = A,B,C,D,E = 5`
+`tot n° input addresses = A,B,C,D,E = 5`
 
 `tot n° inputs = A,A,B,B,C,D,E = 7`
 
-`percentage addresses reuse per CoinJoin = n° addresses reused / n° addresses = 2/5 = 40%`
+`percentage input addresses reused per CoinJoin = n° input addresses reused / n° input addresses = 2/5 = 40%`
 
 `percentage inputs reused per CoinJoin = n° inputs reused / n° inputs = 4/7 = 57%`
 
-`average % address reuse per CoinJoin = 40/1 = 40%`
+`average % input address reused per CoinJoin = 40/1 = 40%`
 
 `average % inputs reused per CoinJoin = 57/1 = 57%`
 
@@ -322,19 +331,19 @@ inputs
 F,C,G,H,I,I
 ```
 
-`n° addresses reused = C,I = 2`
+`n° input addresses reused = C,I = 2`
 
 `n° inputs reused = C,I,I = 3`
 
-`tot n° addresses = F,C,G,H,I = 5`
+`tot n° input addresses = F,C,G,H,I = 5`
 
 `tot n° inputs = F,C,G,H,I,I = 6`
 
-`percentage addresses reuse per CoinJoin = n° addresses reused / n° addresses = 2/5 = 40%`
+`percentage input addresses reused per CoinJoin = n° input addresses reused / n° input addresses = 2/5 = 40%`
 
-`percentage addresses reuse per CoinJoin = n° inputs reused / n° inputs = 3/6 = 50%`
+`percentage inputs reused per CoinJoin = n° inputs reused / n° inputs = 3/6 = 50%`
 
-`average % address reuse per CoinJoin = (40+40)/2 = 40%`
+`average % input addresses reused per CoinJoin = (40+40)/2 = 40%`
 
 `average % inputs reused per CoinJoin = (57+50)/2 = 53.5%`
 
@@ -342,7 +351,7 @@ F,C,G,H,I,I
 
 **The orange line** is the percentage of address reuse on the total number of addresses that partecipated as input in a CoinJoin. An input address is counted as reused if it appears as input in a CoinJoin more than once (either in the same CoinJoin or in different ones).
 
-`percentage addresses reused = number(total addresses reused) / number(total input addresses)`
+`percentage input addresses reused = number(total input addresses reused) / number(total input addresses)`
 
 **The red line** is the percentage of inputs that belong to reused addresses on the total number of inputs.
 
@@ -358,15 +367,15 @@ inputs
 A,A,B,B,C,D,E
 ```
 
-`n° addresses reused = A,B = 2`
+`n° input addresses reused = A,B = 2`
 
 `n° inputs reused = A,A,B,B = 4`
 
-`tot n° addresses = A,B,C,D,E = 5`
+`tot n° input addresses = A,B,C,D,E = 5`
 
 `tot n° inputs = A,A,B,B,C,D,E = 7`
 
-`percentage addresses reused = n° addresses reused / tot n° addresses = 2/5 = 40%`
+`percentage input addresses reused = n° input addresses reused / tot n° input addresses = 2/5 = 40%`
 
 `percentage inputs reused = n° inputs reused / tot n° inputs = 4/7 = 57%`
 
@@ -378,15 +387,15 @@ inputs
 F,C,G,H,I,I
 ```
 
-`n° addresses reused = A,B,C,I = 4`
+`n° input addresses reused = A,B,C,I = 4`
 
 `n° inputs reused = A,A,B,B,C,C,I,I = 8`
 
-`tot n° addresses = A,B,C,D,E,F,G,H,I = 9`
+`tot n° input addresses = A,B,C,D,E,F,G,H,I = 9`
 
 `tot n° inputs = A,A,B,B,C,D,E,F,C,G,H,I,I = 13`
 
-`percentage addresses reused = n° addresses reused / tot n° addresses = 4/9 = 44%`
+`percentage input addresses reused = n° input addresses reused / tot n° input addresses = 4/9 = 44%`
 
 `percentage inputs reused = n° inputs reused / tot n° inputs = 8/13 = 61%`
 
@@ -485,12 +494,12 @@ F > 3 |  | 1 > V
 
 `percentage equal value outputs reused = (Z,Z)/(Z,Y,X,Z,W,V) = 2/6 = 33%`
 
-* #### Coordinator fees per CoinJoin
+* #### Coordinator fees per CoinJoin 
 
 **The green dots** are the distribution of the coordinator fees for each CoinJoin, the fees are calculate based on the values of the Coordinator address outputs.
 
 **The blue line** is the average of the distribution.
 
-* #### Total coordinator fees
+* #### Total coordinator fees 
 
 **The green line** is the comulative sum of the coordinator fees, the fees are calculate based on the values of the Coordinator address outputs.
