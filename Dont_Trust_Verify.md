@@ -66,9 +66,9 @@ Here there is the complete list of stats used and their exact calculation. If yo
 
 * #### Partecipants per CoinJoin
 
-**The green dots** are the distribution of the number of partecipants per each CoinJoin.
+**The green dots** are the distribution of the number of partecipants per each CoinJoin. The number of partecipants is equal to the number of equal value outputs, only the most frequent equal value output [denomination](https://docs.wasabiwallet.io/FAQ/FAQ-UseWasabi.html#what-are-the-equal-denominations-created-in-one-mixing-round) is counted.
 
-**The blu line** is the average number of partecipants.
+**The blu line** is the average of the distribution.
 
 * #### Average input size per CoinJoin
 
