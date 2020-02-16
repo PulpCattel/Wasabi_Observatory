@@ -24,6 +24,7 @@ Another way of getting the data is to use your own full node.
 * https://bitcoin.org/en/developer-reference#bitcoin-core-apis
 * https://en.bitcoin.it/wiki/API_reference_(JSON-RPC)                    
 * https://github.com/nopara73/WasabiVsSamourai
+* https://github.com/nopara73/WasabiCjEfficiency
 * https://github.com/jgmontoya/wasabi-cj-stats
 
 ### Analyze the data
@@ -31,7 +32,7 @@ Another way of getting the data is to use your own full node.
 A Bitcoin transaction is counted as a Wasabi "CoinJoin round" if it satisfies the following criteria:
 
 * Number of equal value outputs >2, only the most frequent equal value output [denomination](https://docs.wasabiwallet.io/FAQ/FAQ-UseWasabi.html#what-are-the-equal-denominations-created-in-one-mixing-round) is counted
-* The most frequent equal value output [denomination](https://docs.wasabiwallet.io/FAQ/FAQ-UseWasabi.html#what-are-the-equal-denominations-created-in-one-mixing-round) has to be between `0.0945 and 0.1055` or between `0.189 and 0.211`
+* The most frequent equal value output [denomination](https://docs.wasabiwallet.io/FAQ/FAQ-UseWasabi.html#what-are-the-equal-denominations-created-in-one-mixing-round) has to be between `0.0899 and 0.1101` or between `0.1798 and 0.2202`
 * All the inputs and outputs have to be bech32 addresses (Starting with "bc1")
 * One of the output has to be lower than `0.05` (Coordinator fee)
 * Number of inputs >= Number of equal value outputs, only the most frequent equal value output [denomination](https://docs.wasabiwallet.io/FAQ/FAQ-UseWasabi.html#what-are-the-equal-denominations-created-in-one-mixing-round) is counted

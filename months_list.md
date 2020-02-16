@@ -1,6 +1,7 @@
 #### 2020
 
-* [January](README.md)
+* [February](/README.md)
+* [January](2020/January/README.md)
 
 #### 2019
 
