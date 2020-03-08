@@ -22,8 +22,8 @@ For stats about the previous months, look [here](months_list.md).
 
 ---
 
-## February (ongoing)
-**533 CoinJoin round**
+## February
+**1060 CoinJoin round**
 
 ---
 
@@ -34,29 +34,29 @@ For stats about the previous months, look [here](months_list.md).
 
 **Last values:**
 
-* Blue line = 35.53
+* Blue line = 36.5
 
 #### [Partecipants per CoinJoin](Dont_Trust_Verify.md#partecipants-per-coinjoin)
 ![partecipants_per_CoinJoin](2020/February/partecipants_per_CoinJoin.png)
 
 **Last values:**
 
-* Blue line = 57.8
+* Blue line = 56
 
 #### [Average input size per CoinJoin](Dont_Trust_Verify.md#average-input-size-per-coinjoin)
 ![average_input_size_per_CoinJoin](2020/February/average_input_size_per_CoinJoin.png)
 
 **Last values:**
 
-* Blue line = 0.42
+* Blue line = 0.43
 
 #### [Total volume](Dont_Trust_Verify.md#total-volume)
 ![total_volume](2020/February/total_volume.png)
 
 **Last values:**
 
-* Green line = 15189
-* Blue line = 7283
+* Green line = 31981
+* Blue line = 14382
 
 ### INPUTS
 
@@ -65,42 +65,42 @@ For stats about the previous months, look [here](months_list.md).
 
 **Last values:**
 
-* Orange line = 884
-* Red line = 2272
-* Light blue line = 14294
-* Green line = 37029
-* Blue line = 38417
+* Orange line = 1739
+* Red line = 4374
+* Light blue line = 30828
+* Green line = 74169
+* Blue line = 76804
 
 #### [Percentage remixers per CoinJoin](Dont_Trust_Verify.md#percentage-remixers-per-coinjoin)
 ![percentage_remixers_per_CoinJoin](2020/February/percentage_remixers_per_CoinJoin.png)
 
 **Last values:**
 
-* Blue line = 38.46
+* Blue line = 41.4
 
 #### [Total percentage remixers](Dont_Trust_Verify.md#total-percentage-remixers)
 ![total_percentage_remixers](2020/February/total_percentage_remixers.png)
 
 **Last values:**
 
-* Green line = 38.6
-* Blue line = 37.2
+* Green line = 41.5
+* Blue line = 40.1
 
 #### [Percentage address reuse per CoinJoin](Dont_Trust_Verify.md#percentage-address-reuse-per-coinjoin)
 ![percentage_address_reuse_per_CoinJoin](2020/February/percentage_address_reuse_per_CoinJoin.png)
 
 **Last values:**
 
-* Orange line = 3.4
-* Red line = 3.81
+* Orange line = 3.2
+* Red line = 3.6
 
 #### [Total percentage address reuse](Dont_Trust_Verify.md#total-percentage-address-reuse)
 ![total_percentage_address_reuse](2020/February/total_percentage_address_reuse.png)
 
 **Last values:**
 
-* Orange line = 2.39
-* Red line = 5.91
+* Orange line = 2.3
+* Red line = 5.7
 
 ### EQUAL OUTPUTS
 
@@ -109,25 +109,25 @@ For stats about the previous months, look [here](months_list.md).
 
 **Last values:**
 
-* Orange line = 1083
-* Red line = 2763
-* Green line = 41328
-* Blue line = 43008
+* Orange line = 1948
+* Red line = 4780
+* Green line = 78714
+* Blue line = 81546
 
 #### [Percentage equal outputs reused per CoinJoin](Dont_Trust_Verify.md#percentage-equal-outputs-reused-per-coinjoin)
 ![percentage_equal_outputs_reused_per_CoinJoin](2020/February/percentage_equal_outputs_reused_per_CoinJoin.png)
 
 **Last values:**
 
-* Red line = 3.7
+* Red line = 3.3
 
 #### [Total percentage outputs reused](Dont_Trust_Verify.md#total-percentage-equal-outputs-reused)
 ![total_percentage_output_reused](2020/February/total_percentage_outputs_reused.png)
 
 **Last values:**
 
-* Orange line = 2.62
-* Red line = 6.42
+* Orange line = 2.5
+* Red line = 5.9
 
 ---
 
