@@ -6,7 +6,7 @@ For stats about the previous months, look [here](/months_list.md).
 
 ---
 
-## January
+## January - from block 610691 to 615427
 **1057 CoinJoin round**
 
 ---
@@ -121,7 +121,7 @@ You can see effect of this test on other stats too.
 
 ### Next data
 
-* [February 2020](/README.md)
+* [February 2020](/2020/February/README.md)
 
 
 ### Previous data

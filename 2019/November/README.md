@@ -6,7 +6,7 @@ For stats about the other months, look [here](/months_list.md).
 
 ---
 
-## November
+## November - from block 601840 to 606087
 
 ---
 

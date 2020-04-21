@@ -6,7 +6,7 @@ For stats about the previous months, look [here](/months_list.md).
 
 ---
 
-## February
+## February - from block 615428 to 619581
 **1060 CoinJoin round**
 
 ---
@@ -117,7 +117,7 @@ For stats about the previous months, look [here](/months_list.md).
 
 ### Next data
 
-* [March 2020](/README.md)
+* [March 2020](/2020/March/README.md)
 
 ### Previous data
 

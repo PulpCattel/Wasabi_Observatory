@@ -22,115 +22,115 @@ For stats about the previous months, look [here](months_list.md).
 
 ---
 
-## March
-**1125 CoinJoin round**
+## April - from block 623837 to 626183
+**543 CoinJoin round**
 
 ---
 
 ### GENERAL
 
 #### [CoinJoin per Day](Dont_Trust_Verify.md#coinjoin-per-day)
-![CoinJoin_per_day](2020/March/CoinJoin_per_day.png)
+![CoinJoin_per_day](2020/April/CoinJoin_per_day.png)
 
 **Last values:**
 
-* Blue line = 36.3
+* Blue line = 36.2
 
 #### [Partecipants per CoinJoin](Dont_Trust_Verify.md#partecipants-per-coinjoin)
-![partecipants_per_CoinJoin](2020/March/partecipants_per_CoinJoin.png)
+![partecipants_per_CoinJoin](2020/April/partecipants_per_CoinJoin.png)
 
 **Last values:**
 
-* Blue line = 55.6
+* Blue line = 62.5
 
 #### [Average input size per CoinJoin](Dont_Trust_Verify.md#average-input-size-per-coinjoin)
-![average_input_size_per_CoinJoin](2020/March/average_input_size_per_CoinJoin.png)
+![average_input_size_per_CoinJoin](2020/April/average_input_size_per_CoinJoin.png)
 
 **Last values:**
 
-* Blue line = 0.54
+* Blue line = 0.82
 
 #### [Total volume](Dont_Trust_Verify.md#total-volume)
-![total_volume](2020/March/total_volume.png)
+![total_volume](2020/April/total_volume.png)
 
 **Last values:**
 
-* Green line = 45532
-* Blue line = 17503
+* Green line = 36840
+* Blue line = 10770
 
 ### INPUTS
 
 #### [Total number addresses/inputs](Dont_Trust_Verify.md#total-number-of-addresses)
-![total_number_addresses](2020/March/total_number_addresses.png)
+![total_number_addresses](2020/April/total_number_addresses.png)
 
 **Last values:**
 
-* Orange line = 1519
-* Red line = 3835
-* Light blue line = 32211
-* Green line = 77883
-* Blue line = 80199
+* Orange line = 1204
+* Red line = 2878
+* Light blue line = 15651
+* Green line = 44099
+* Blue line = 45773
 
 #### [Percentage remixers per CoinJoin](Dont_Trust_Verify.md#percentage-remixers-per-coinjoin)
-![percentage_remixers_per_CoinJoin](2020/March/percentage_remixers_per_CoinJoin.png)
+![percentage_remixers_per_CoinJoin](2020/April/percentage_remixers_per_CoinJoin.png)
 
 **Last values:**
 
-* Blue line = 41.5
+* Blue line = 35
 
 #### [Total percentage remixers](Dont_Trust_Verify.md#total-percentage-remixers)
-![total_percentage_remixers](2020/March/total_percentage_remixers.png)
+![total_percentage_remixers](2020/April/total_percentage_remixers.png)
 
 **Last values:**
 
-* Green line = 41.3
-* Blue line = 40.1
+* Green line = 35.5
+* Blue line = 34.2
 
 #### [Percentage address reuse per CoinJoin](Dont_Trust_Verify.md#percentage-address-reuse-per-coinjoin)
-![percentage_address_reuse_per_CoinJoin](2020/March/percentage_address_reuse_per_CoinJoin.png)
+![percentage_address_reuse_per_CoinJoin](2020/April/percentage_address_reuse_per_CoinJoin.png)
 
 **Last values:**
 
-* Orange line = 2.65
-* Red line = 2.96
+* Orange line = 3.47
+* Red line = 3.81
 
 #### [Total percentage address reuse](Dont_Trust_Verify.md#total-percentage-address-reuse)
-![total_percentage_address_reuse](2020/March/total_percentage_address_reuse.png)
+![total_percentage_address_reuse](2020/April/total_percentage_address_reuse.png)
 
 **Last values:**
 
-* Orange line = 1.95
-* Red line = 4.8
+* Orange line = 2.73
+* Red line = 6.29
 
 ### EQUAL OUTPUTS
 
 #### [Total number equal outputs](Dont_Trust_Verify.md#total-number-equal-outputs)
-![total_number_equal_outputs](2020/March/total_number_equal_output_reused.png)
+![total_number_equal_outputs](2020/April/total_number_equal_output_reused.png)
 
 **Last values:**
 
-* Orange line = 1969
-* Red line = 4870
-* Green line = 85742
-* Blue line = 88643
+* Orange line = 1525
+* Red line = 3552
+* Green line = 48655
+* Blue line = 50682
 
 #### [Percentage equal outputs reused per CoinJoin](Dont_Trust_Verify.md#percentage-equal-outputs-reused-per-coinjoin)
-![percentage_equal_outputs_reused_per_CoinJoin](2020/March/percentage_equal_outputs_reused_per_CoinJoin.png)
+![percentage_equal_outputs_reused_per_CoinJoin](2020/April/percentage_equal_outputs_reused_per_CoinJoin.png)
 
 **Last values:**
 
-* Red line = 3.1
+* Red line = 3.84
 
 #### [Total percentage outputs reused](Dont_Trust_Verify.md#total-percentage-equal-outputs-reused)
-![total_percentage_output_reused](2020/March/total_percentage_outputs_reused.png)
+![total_percentage_output_reused](2020/April/total_percentage_outputs_reused.png)
 
 **Last values:**
 
-* Orange line = 2.3
-* Red line = 5.5
+* Orange line = 3.13
+* Red line = 7.01
 
 ---
 
 ### Previous data
 
-* [February 2020](2020/February/README.md)
+* [March 2020](2020/March/README.md)

@@ -6,7 +6,7 @@ For stats about the other months, look [here](/months_list.md).
 
 ---
 
-## December
+## December - from block 606088 to 610690
 
 ---
 
