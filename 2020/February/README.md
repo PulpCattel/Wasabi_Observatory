@@ -7,7 +7,7 @@ For stats about the previous months, look [here](/months_list.md).
 ---
 
 ## February - from block 615428 to 619581
-**1060 CoinJoin round**
+**1057 CoinJoin round**
 
 ---
 
@@ -18,7 +18,7 @@ For stats about the previous months, look [here](/months_list.md).
 
 **Last values:**
 
-* Blue line = 36.5
+* Blue line = 36.4
 
 #### Partecipants per CoinJoin
 ![partecipants_per_CoinJoin](partecipants_per_CoinJoin.png)
@@ -39,8 +39,8 @@ For stats about the previous months, look [here](/months_list.md).
 
 **Last values:**
 
-* Green line = 31981
-* Blue line = 14382
+* Green line = 31925
+* Blue line = 14355
 
 ### INPUTS
 
@@ -49,26 +49,26 @@ For stats about the previous months, look [here](/months_list.md).
 
 **Last values:**
 
-* Orange line = 1739
-* Red line = 4374
-* Light blue line = 30828
-* Green line = 74169
-* Blue line = 76804
+* Orange line = 1737
+* Red line = 4367
+* Light blue line = 30574
+* Green line = 73858
+* Blue line = 76488
 
 #### Percentage remixers per CoinJoin
 ![percentage_remixers_per_CoinJoin](percentage_remixers_per_CoinJoin.png)
 
 **Last values:**
 
-* Blue line = 41.4
+* Blue line = 41.2
 
 #### Total percentage remixers
 ![total_percentage_remixers](total_percentage_remixers.png)
 
 **Last values:**
 
-* Green line = 41.5
-* Blue line = 40.1
+* Green line = 41.4
+* Blue line = 40
 
 #### Percentage address reuse per CoinJoin
 ![percentage_address_reuse_per_CoinJoin](percentage_address_reuse_per_CoinJoin.png)
@@ -93,10 +93,10 @@ For stats about the previous months, look [here](/months_list.md).
 
 **Last values:**
 
-* Orange line = 1948
-* Red line = 4780
-* Green line = 78714
-* Blue line = 81546
+* Orange line = 1943
+* Red line = 4769
+* Green line = 78510
+* Blue line = 81336
 
 #### Percentage equal outputs reused per CoinJoin
 ![percentage_equal_outputs_reused_per_CoinJoin](percentage_equal_outputs_reused_per_CoinJoin.png)
