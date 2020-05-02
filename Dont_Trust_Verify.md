@@ -4,7 +4,7 @@
 
 The Bitcoin Blockchain is openly verifiable, anyone without the need for any kind of permission can look at it.
 
-A simple way that requires nothing more than an Internet connection is to query some API. 
+A simple way that requires nothing more than an Internet connection is to query some API.
 
 Blockstream explorer, for example, offers a nice set of API that you can use over Tor with an onion service (recommended).
 
@@ -18,11 +18,11 @@ Or if you don't want to use Tor.
 
 There are many different Blockchain explorers that offer API, pick the one that works best for you.
 
-Another way of getting the data is to use your own full node. 
+Another way of getting the data is to use your own full node.
 
-*Useful links*: 
+*Useful links*:
 * https://bitcoin.org/en/developer-reference#bitcoin-core-apis
-* https://en.bitcoin.it/wiki/API_reference_(JSON-RPC)                    
+* https://en.bitcoin.it/wiki/API_reference_(JSON-RPC)
 * https://github.com/nopara73/WasabiVsSamourai
 * https://github.com/nopara73/WasabiCjEfficiency
 * https://github.com/jgmontoya/wasabi-cj-stats
@@ -39,7 +39,7 @@ A Bitcoin transaction is counted as a Wasabi "CoinJoin round" if it satisfies th
 
 > Keep in mind that if you use different criteria, you may end up with different results.
 
-Once you have the data you are interested in, you can work on it using your favorite programming language. 
+Once you have the data you are interested in, you can work on it using your favorite programming language.
 Here there is the complete list of stats used and their exact calculation. If you find any error, or something doesn't add up, please let me know so I can fix it.
 
 * [CoinJoin per day](Dont_Trust_Verify.md#coinjoin-per-day)
@@ -124,7 +124,7 @@ Example:
 ##### CoinJoin round 1
 
 ```
-inputs > amounts |  | amounts 
+inputs > amounts |  | amounts
 
 A > 1 |  | 1
 B > 2 |  | 1
@@ -146,7 +146,7 @@ E > 5 |  | 1
 
 **The green line** is the total number of addresses that partecipate as input in a CoinJoin.
 
-**The blue line** is the total number of inputs. 
+**The blue line** is the total number of inputs.
 
 > Ideally, green and blue should be equal, each input should be a separate address. In practice people reuse addresses multiple times.
 
@@ -154,7 +154,7 @@ E > 5 |  | 1
 
 **The orange line** is the total number of addresses reused. An input address is counted as reused if it appears as input in a CoinJoin more than once (either in the same CoinJoin or in different ones).
 
-**The red line** is the total number of inputs that belong to reused addresses. 
+**The red line** is the total number of inputs that belong to reused addresses.
 
 Example:
 
@@ -303,7 +303,7 @@ Example:
 ##### CoinJoin round 1
 
 ```
-inputs 
+inputs
 
 A,A,B,B,C,D,E
 ```
@@ -363,7 +363,7 @@ Example:
 ##### CoinJoin round 1
 
 ```
-inputs 
+inputs
 
 A,A,B,B,C,D,E
 ```
@@ -406,7 +406,7 @@ F,C,G,H,I,I
 
 **The blue line** is the total number of equal value outputs.
 
-> Ideally, green and blue should be the same, each equal value output should be a separate address. In practice some addresses are reused multiple times. 
+> Ideally, green and blue should be the same, each equal value output should be a separate address. In practice some addresses are reused multiple times.
 > This is either intentional or a bug (more [here](https://github.com/zkSNACKs/WalletWasabi/issues/2034) and [here](https://github.com/zkSNACKs/WalletWasabi/issues/2077)).
 
 **The orange line** is the total number of equal value outputs addresses reused. An equal value output address is counted as reused if it appears as equal value output in a CoinJoin more than once (either in the same CoinJoin or in different ones).
@@ -459,7 +459,7 @@ F > 3 |  | 1 > V
 
 **The orange line** is the percentage of equal value outputs addresses reused on the total number of equal value outputs addresses. An equal value output address is counted as reused if it appears as equal value output in a CoinJoin more than once (either in the same CoinJoin or in different ones).
 
-**The red line** is the percentage of equal value outputs that belong to equal value outputs addresses reused on the total number of equal value outputs. 
+**The red line** is the percentage of equal value outputs that belong to equal value outputs addresses reused on the total number of equal value outputs.
 
 Example:
 
@@ -495,12 +495,12 @@ F > 3 |  | 1 > V
 
 `percentage equal value outputs reused = (Z,Z)/(Z,Y,X,Z,W,V) = 2/6 = 33%`
 
-* #### Coordinator fees per CoinJoin 
+* #### Coordinator fees per CoinJoin
 
 **The green dots** are the distribution of the coordinator fees for each CoinJoin, the fees are calculate based on the values of the Coordinator address outputs.
 
 **The blue line** is the average of the distribution.
 
-* #### Total coordinator fees 
+* #### Total coordinator fees
 
 **The green line** is the comulative sum of the coordinator fees, the fees are calculate based on the values of the Coordinator address outputs.

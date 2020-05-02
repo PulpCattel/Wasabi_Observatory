@@ -1,6 +1,6 @@
 A list of statistics of the Wasabi Wallet's trustless CoinJoin implementation.
 
-For a more deep explanation of every stats, including how to calculate them and where to find them, give a look at the [Don't Trust, Verify](/Dont_Trust_Verify.md) section. 
+For a more deep explanation of every stats, including how to calculate them and where to find them, give a look at the [Don't Trust, Verify](/Dont_Trust_Verify.md) section.
 
 For stats about the previous months, look [here](/months_list.md).
 
@@ -20,8 +20,8 @@ For stats about the previous months, look [here](/months_list.md).
 
 * Blue line = 34.1
 
-> The spike in CoinJoin per day is the result of this test: 
-https://www.reddit.com/r/WasabiWallet/comments/elwr05/faster_coinjoins_backend_countdown_timer_reduced/  
+> The spike in CoinJoin per day is the result of this test:
+https://www.reddit.com/r/WasabiWallet/comments/elwr05/faster_coinjoins_backend_countdown_timer_reduced/
 You can see effect of this test on other stats too.
 
 #### Partecipants per CoinJoin
