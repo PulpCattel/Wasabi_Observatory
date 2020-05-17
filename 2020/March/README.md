@@ -116,7 +116,7 @@ For stats about the previous months, look [here](/months_list.md).
 ---
 ### Next data
 
-* [April 2020](/README.md)
+* [April 2020](/2020/April/README.md)
 
 ### Previous data
 
