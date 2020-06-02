@@ -20,6 +20,10 @@ For stats about the previous months, look [here](months_list.md).
 * *GitHub*: https://github.com/zkSNACKs/WalletWasabi
 * *Research Club*: https://github.com/zkSNACKs/WasabiResearchClub
 
+[nopara73](https://github.com/nopara73), lead developer of Wasabi, also mantains a repository with statistics about CoinJoin activity, give it a look: 
+
+https://github.com/nopara73/Dumplings
+
 ---
 
 ## May - from block 628350 to 632541 (**HAPPY HALVING!**)
