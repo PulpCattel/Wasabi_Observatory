@@ -6,6 +6,11 @@
 
 ---
 
+**The code used for this Observatory has been repurposed in a new, more general, [repository](https://github.com/PulpCattel/Observatory).  
+[Here](https://github.com/PulpCattel/Observatory/blob/master/examples/Wasabi_Observatory.ipynb) you can find the new Wasabi stats updated each month.**
+
+---
+
 A list of statistics of the Wasabi Wallet's trustless CoinJoin implementation.
 
 For a more deep explanation of every stats, including how to calculate them and where to find them, give a look at the [Don't Trust, Verify](Dont_Trust_Verify.md) section.
